@@ -415,6 +415,17 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
+"@jest/types@^26.6.2":
+  version "26.6.2"
+  resolved "https://registry.npmjs.org/@jest/types/-/types-26.6.2.tgz"
+  integrity sha512-fC6QCp7Sc5sX6g8Tvbmj4XUTbyrik0akgRy03yjXbQaBWWNWGE7SGtJk98m0N8nzegD/7SggrUlivxo5ax4KWQ==
+  dependencies:
+    "@types/istanbul-lib-coverage" "^2.0.0"
+    "@types/istanbul-reports" "^3.0.0"
+    "@types/node" "*"
+    "@types/yargs" "^15.0.0"
+    chalk "^4.0.0"
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz"
@@ -844,6 +855,13 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
+"@types/istanbul-reports@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/@types/istanbul-reports/-/istanbul-reports-3.0.0.tgz"
+  integrity sha512-nwKNbvnwJ2/mndE9ItP/zc2TCzw6uuodnF4EHYWD+gCQDVBuRQL5UzbZD0/ezy1iKsFU2ZQiDqg4M9dN4+wZgA==
+  dependencies:
+    "@types/istanbul-lib-report" "*"
+
 "@types/js-yaml@^3.12.1":
   version "3.12.6"
   resolved "https://registry.npmjs.org/@types/js-yaml/-/js-yaml-3.12.6.tgz"
@@ -940,6 +958,13 @@
   version "13.0.11"
   resolved "https://registry.npmjs.org/@types/yargs/-/yargs-13.0.11.tgz"
   integrity sha512-NRqD6T4gktUrDi1o1wLH3EKC1o2caCr7/wR87ODcbVITQF106OM3sFN92ysZ++wqelOd1CTzatnOBRDYYG6wGQ==
+  dependencies:
+    "@types/yargs-parser" "*"
+
+"@types/yargs@^15.0.0":
+  version "15.0.13"
+  resolved "https://registry.npmjs.org/@types/yargs/-/yargs-15.0.13.tgz"
+  integrity sha512-kQ5JNTrbDv3Rp5X2n/iUu37IJBDU2gsZ5R/g1/KHOOEc5IKfUFjXT6DENPGduh08I/pamwtEq4oul7gUqKTQDQ==
   dependencies:
     "@types/yargs-parser" "*"
 
@@ -1145,7 +1170,7 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-ansi-styles@^4.1.0:
+ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz"
   integrity sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==
@@ -1620,7 +1645,7 @@ chalk@4.1.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.4.1, chalk@^2.4.2:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -1637,7 +1662,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.1.0:
+chalk@^4.0.0, chalk@^4.1.0:
   version "4.1.1"
   resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.1.tgz"
   integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
@@ -2068,6 +2093,11 @@ diff-sequences@^24.9.0:
   version "24.9.0"
   resolved "https://registry.npmjs.org/diff-sequences/-/diff-sequences-24.9.0.tgz"
   integrity sha512-Dj6Wk3tWyTE+Fo1rW8v0Xhwk80um6yFYKbuAxc9c3EZxIHFDYwbi34Uk42u1CdnIiVorvt4RmlSDjIPyzGC2ew==
+
+diff-sequences@^26.6.2:
+  version "26.6.2"
+  resolved "https://registry.npmjs.org/diff-sequences/-/diff-sequences-26.6.2.tgz"
+  integrity sha512-Mv/TDa3nZ9sbc5soK+OoA74BsS3mL37yixCvUAQkiuA4Wz6YtwP/K47n2rv2ovzHZvoiQeA5FTQOschKkEwB0Q==
 
 diff@^4.0.1:
   version "4.0.2"
@@ -3510,6 +3540,16 @@ jest-diff@^24.9.0:
     jest-get-type "^24.9.0"
     pretty-format "^24.9.0"
 
+jest-diff@^26.6.2:
+  version "26.6.2"
+  resolved "https://registry.npmjs.org/jest-diff/-/jest-diff-26.6.2.tgz"
+  integrity sha512-6m+9Z3Gv9wN0WFVasqjCL/06+EFCMTqDEUl/b87HYK2rAPTyfz4ZIuSlPhY51PIQRWx5TaxeF1qmXKe9gfN3sA==
+  dependencies:
+    chalk "^4.0.0"
+    diff-sequences "^26.6.2"
+    jest-get-type "^26.3.0"
+    pretty-format "^26.6.2"
+
 jest-docblock@^24.3.0:
   version "24.9.0"
   resolved "https://registry.npmjs.org/jest-docblock/-/jest-docblock-24.9.0.tgz"
@@ -3556,6 +3596,11 @@ jest-get-type@^24.9.0:
   resolved "https://registry.npmjs.org/jest-get-type/-/jest-get-type-24.9.0.tgz"
   integrity sha512-lUseMzAley4LhIcpSP9Jf+fTrQ4a1yHQwLNeeVa2cEmbCGeoZAtYPOIv8JaxLD/sUpKxetKGP+gsHl8f8TSj8Q==
 
+jest-get-type@^26.3.0:
+  version "26.3.0"
+  resolved "https://registry.npmjs.org/jest-get-type/-/jest-get-type-26.3.0.tgz"
+  integrity sha512-TpfaviN1R2pQWkIihlfEanwOXK0zcxrKEE4MlU6Tn7keoXdN6/3gK/xl0yEh8DOunn5pOVGKf8hB4R9gVh04ig==
+
 jest-haste-map@^24.9.0:
   version "24.9.0"
   resolved "https://registry.npmjs.org/jest-haste-map/-/jest-haste-map-24.9.0.tgz"
@@ -3597,14 +3642,14 @@ jest-jasmine2@^24.9.0:
     pretty-format "^24.9.0"
     throat "^4.0.0"
 
-jest-json-schema@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/jest-json-schema/-/jest-json-schema-2.1.0.tgz"
-  integrity sha512-FaXuFj6Rak1OnV+cfQsD8YnfyfEJ/DeGbomRnmNRO0HeyCpqLsDkC0Lr6z0hXK4/d7Ekz1mqBewVJpcYQ6H89w==
+jest-json-schema@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/jest-json-schema/-/jest-json-schema-5.0.0.tgz"
+  integrity sha512-AggSUrNDSGndFQJAvrAHQzW9P/4tu9bnCIlvyzcOszgk8By1EU1bNP15TA38/4YekDgac49GniInpa0HsIbAjA==
   dependencies:
     ajv "^6.10.2"
-    chalk "^2.4.1"
-    jest-matcher-utils "^24.0.0"
+    chalk "^4.1.0"
+    jest-matcher-utils "^26.6.1"
 
 jest-leak-detector@^24.9.0:
   version "24.9.0"
@@ -3614,7 +3659,7 @@ jest-leak-detector@^24.9.0:
     jest-get-type "^24.9.0"
     pretty-format "^24.9.0"
 
-jest-matcher-utils@^24.0.0, jest-matcher-utils@^24.9.0:
+jest-matcher-utils@^24.9.0:
   version "24.9.0"
   resolved "https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-24.9.0.tgz"
   integrity sha512-OZz2IXsu6eaiMAwe67c1T+5tUAtQyQx27/EMEkbFAGiw52tB9em+uGbzpcgYVpA8wl0hlxKPZxrly4CXU/GjHA==
@@ -3623,6 +3668,16 @@ jest-matcher-utils@^24.0.0, jest-matcher-utils@^24.9.0:
     jest-diff "^24.9.0"
     jest-get-type "^24.9.0"
     pretty-format "^24.9.0"
+
+jest-matcher-utils@^26.6.1:
+  version "26.6.2"
+  resolved "https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-26.6.2.tgz"
+  integrity sha512-llnc8vQgYcNqDrqRDXWwMr9i7rS5XFiCwvh6DTP7Jqa2mqpcCBBlpCbn+trkG0KNhPu/h8rzyBkriOtBstvWhw==
+  dependencies:
+    chalk "^4.0.0"
+    jest-diff "^26.6.2"
+    jest-get-type "^26.3.0"
+    pretty-format "^26.6.2"
 
 jest-message-util@^24.9.0:
   version "24.9.0"
@@ -4293,15 +4348,10 @@ lodash.values@^4.3.0:
   resolved "https://registry.npmjs.org/lodash.values/-/lodash.values-4.3.0.tgz"
   integrity sha1-o6bCsOvsxcLLocF+bmIP6BtT00c=
 
-lodash@^4.17.11, lodash@^4.17.15:
+lodash@^4.17.11, lodash@^4.17.15, lodash@^4.17.19:
   version "4.17.19"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.19.tgz"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
-
-lodash@^4.17.19:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
-  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^4.0.0:
   version "4.1.0"
@@ -5133,6 +5183,16 @@ pretty-format@^24.9.0:
     ansi-styles "^3.2.0"
     react-is "^16.8.4"
 
+pretty-format@^26.6.2:
+  version "26.6.2"
+  resolved "https://registry.npmjs.org/pretty-format/-/pretty-format-26.6.2.tgz"
+  integrity sha512-7AeGuCYNGmycyQbCqd/3PWH4eOoX/OiCa0uphp57NVTeAGdJGaAliecxwBDHYQCIvrW7aDBZCYeNTP/WX69mkg==
+  dependencies:
+    "@jest/types" "^26.6.2"
+    ansi-regex "^5.0.0"
+    ansi-styles "^4.0.0"
+    react-is "^17.0.1"
+
 pretty-quick@^2.0.0:
   version "2.0.2"
   resolved "https://registry.npmjs.org/pretty-quick/-/pretty-quick-2.0.2.tgz"
@@ -5330,6 +5390,11 @@ react-is@^16.8.4:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-is@^17.0.1:
+  version "17.0.2"
+  resolved "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
+  integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
 read-pkg-up@^4.0.0:
   version "4.0.0"
